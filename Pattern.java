@@ -4,6 +4,11 @@
 
 public class Pattern{
     public static void stars(int rows){
+        String star="*";
+        while(rows>0){
+            System.out.println(star);
+
+        }
 
     }
 
