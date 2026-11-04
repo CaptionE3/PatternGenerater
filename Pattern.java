@@ -17,7 +17,7 @@ public class Pattern{
        
 
     }
-
+    //j num of times i is printed
      public static void numbers(int rows){
         int number=1;
        for ( int i=1; i<=rows; i++)
