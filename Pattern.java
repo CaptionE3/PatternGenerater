@@ -20,11 +20,10 @@ public class Pattern{
 
      public static void numbers(int rows){
         int number=1;
-        
-        while(rows>0){
-            System.out.println(number);
-            rows-=1;
-            number+=1;
+       for ( number=1; number<=rows; number++)
+        for(int i=1; i<=number; i++){
+            System.out.println(number+"");
+           
             
         }
     }
