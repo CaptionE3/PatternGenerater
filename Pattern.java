@@ -3,6 +3,8 @@
 
 //creates the star pattern
 public class Pattern{
+        //precondition star = *
+        //postcondition star +2
     public static void stars(int rows){
         String star="*";
         while(rows>0){
@@ -17,15 +19,16 @@ public class Pattern{
        
 
     }
-    //j num of times i is printed
+    
      public static void numbers(int rows){
         int number=1;
        for ( int i=1; i<=rows; i++)
         for(int j=1; j<=i; j++){
-            System.out.println(i+"");
+            System.out.print(i);
             
             
         }
+        //System.printLn(i);
     }
     public static void main(String [] args){
        stars(7);
