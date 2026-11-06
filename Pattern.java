@@ -62,9 +62,27 @@ public class Pattern{
 
         System.out.println();
     }
+   
+   for ( int i=maxE-1; i>=0; i--){
+        for(int j=1; j<=i; j++){
+            System.out.print(output);
+              
+            
+        }
+        if(output.equals("E"))
+            output="o";
+        else
+            output="E";
 
+        System.out.println();
+    }
 
     }
+
+    //public static void pyramid(int rows){
+
+
+    //}
     public static void main(String [] args){
        //stars(7);
        //triangle(9);
