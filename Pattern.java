@@ -21,7 +21,7 @@ public class Pattern{
     }
     //precondition number=1
     //postcondition number+=1 
-     public static void numbers(int rows){
+     public static void triangle(int rows){
         
        for ( int i=1; i<=rows; i++){
         for(int j=1; j<=i; j++){
@@ -32,6 +32,7 @@ public class Pattern{
         System.out.println();
     }
     }
+    
     public static void odds(int rows){
         
        for ( int i=rows; i>=1; i-=2){
@@ -43,11 +44,32 @@ public class Pattern{
         System.out.println();
     }
     }
-    public static void main(String [] args){
-       stars(7);
-       numbers(9);
-        odds(9);
+    public static void eo(int maxE){
+        String output="E";
+        if(maxE %2 ==0){
+            output="o";
+       }
+         for ( int i=1; i<=maxE; i++){
+        for(int j=1; j<=i; j++){
+            System.out.print(output);
+              
+            
+        }
+        if(output.equals("E"))
+            output="o";
+        else
+            output="E";
 
+        System.out.println();
+    }
+
+
+    }
+    public static void main(String [] args){
+       //stars(7);
+       //triangle(9);
+        //odds(9);
+        eo(9);
     }
 
 }
