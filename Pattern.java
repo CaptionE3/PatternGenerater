@@ -27,7 +27,7 @@ public class Pattern{
         for(int j=1; j<=i; j++){
             System.out.print(i);
             
-            //hh
+            
         }
         System.out.println();
     }
@@ -35,8 +35,8 @@ public class Pattern{
     public static void odds(int rows){
         
        for ( int i=rows; i>=1; i-=2){
-        for(int j=rows; j>=i; j-=2){
-            System.out.print(i);
+        for(int j=i; j>=1; j--){
+            System.out.print(i); 
             
             
         }
@@ -46,7 +46,7 @@ public class Pattern{
     public static void main(String [] args){
        stars(7);
        numbers(9);
-        odds(5);
+        odds(9);
 
     }
 
