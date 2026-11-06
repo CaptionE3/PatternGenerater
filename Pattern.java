@@ -3,8 +3,7 @@
 
 //creates the star pattern
 public class Pattern{
-        //precondition star = *
-        //postcondition star +2
+       
     public static void stars(int rows){
         String star="*";
         while(rows>0){
@@ -19,8 +18,7 @@ public class Pattern{
        
 
     }
-    //precondition number=1
-    //postcondition number+=1 
+    
      public static void triangle(int rows){
         
        for ( int i=1; i<=rows; i++){
@@ -79,15 +77,23 @@ public class Pattern{
 
     }
 
-    //public static void pyramid(int rows){
+    public static void pyramid(int rows){
+        for ( int i=1; i<=rows; i++){
+        for(int j=i; j>=1; j--){
+            System.out.print(i-2);
+            
+            
+        }
+        System.out.println();
+    }
 
-
-    //}
+    }
     public static void main(String [] args){
        //stars(7);
        //triangle(9);
         //odds(9);
-        eo(9);
+        //eo(9);
+        pyramid(5);
     }
 
 }
