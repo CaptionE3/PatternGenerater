@@ -78,13 +78,14 @@ public class Pattern{
     }
 
     public static void pyramid(int rows){
-        for ( int i=1; i<=rows; i++){
+       for ( int i=rows; i>=1; i-=1){
         for(int j=i; j>=1; j--){
-            System.out.print(i-2);
+            System.out.print(rows-i+1); 
             
             
         }
         System.out.println();
+    
     }
 
     }
