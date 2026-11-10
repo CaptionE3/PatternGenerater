@@ -86,7 +86,7 @@ public class Pattern{
 //postcondition prints i-2 j-2 times 
     public static void pyramid(int rows){
        for ( int i=rows; i>=1; i-=1){
-        for (int c=1;  c<=i-i-i; c+=1){
+        for (int c=1;  c<=rows-i; c+=1){
             System.out.print(" ");
         }
         
@@ -101,10 +101,10 @@ public class Pattern{
        
     }
     public static void main(String [] args){
-       stars(7);
-       triangle(9);
-        odds(9);
-        eo(9);
+       //stars(7);
+       //triangle(9);
+        //odds(9);
+        //eo(9);
         pyramid(5);
     }
 
