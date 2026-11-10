@@ -101,10 +101,10 @@ public class Pattern{
        
     }
     public static void main(String [] args){
-       //stars(7);
-       //triangle(9);
-        //odds(9);
-        //eo(9);
+       stars(7);
+       triangle(9);
+        odds(9);
+        eo(9);
         pyramid(5);
     }
 
