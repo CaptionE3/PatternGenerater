@@ -3,9 +3,9 @@
 
 //creates the star pattern
 public class Pattern{
-       //precondition *
-       //postcondition ***
-    public static void stars(int rows){
+       //precondition rows>0
+       //postcondition creates a pattern of stars adding 2 more stars each line 
+     public static void stars(int rows){
         String star="*";
         while(rows>0){
             System.out.println(star);
@@ -19,7 +19,7 @@ public class Pattern{
        
 
     }
-    //precondition i=1
+    //precondition rows>=i    i=1
     //postcondition prints triangle with i  j number of times
      public static void triangle(int rows){
         
@@ -32,8 +32,8 @@ public class Pattern{
         System.out.println();
     }
     }
-    //precondition prints i j times
-    //postcondition i-2
+     //precondition i=rows  i>=1
+     //postcondition creates a pattern with i decreacing by 2 each time
 
     public static void odds(int rows){
         
@@ -51,7 +51,7 @@ public class Pattern{
         if(maxE %2 ==0){
             output="o";
        }
-       //precondition eo=0
+       //precondition i=1  maxE is greater or equal to i
        //postcondition number of characters in each row decreace each time
          for ( int i=1; i<=maxE; i++){
         for(int j=1; j<=i; j++){
@@ -82,7 +82,7 @@ public class Pattern{
     }
 
     }
-// precondition prints i j times
+// precondition i=rows  i is greate ror equal to 1
 //postcondition prints i-2 j-2 times 
     public static void pyramid(int rows){
        for ( int i=rows; i>=1; i-=1){
