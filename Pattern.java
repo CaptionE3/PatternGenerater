@@ -32,7 +32,7 @@ public class Pattern{
         System.out.println();
     }
     }
-     //precondition i=rows  
+     //precondition i=rows 
      //postcondition creates a pattern with odd numbers being printed equal to that number of times in each row. 
      // Decreases by two after each row until you reach the last row of 1.
 
@@ -84,7 +84,8 @@ public class Pattern{
 
     }
 // precondition i=rows  i is greate ror equal to 1
-//postcondition prints i-2 j-2 times 
+//postcondition prints 1st character 9 ties than as the character 
+// being printed increace the number of times its printed decreaces by 2.
     public static void pyramid(int rows){
        for ( int i=rows; i>=1; i-=1){
         for (int c=1;  c<=rows-i; c+=1){
