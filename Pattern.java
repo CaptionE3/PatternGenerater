@@ -32,8 +32,9 @@ public class Pattern{
         System.out.println();
     }
     }
-     //precondition i=rows  i>=1
-     //postcondition creates a pattern with i decreacing by 2 each time
+     //precondition i=rows  
+     //postcondition creates a pattern with odd numbers being printed equal to that number of times in each row. 
+     // Decreases by two after each row until you reach the last row of 1.
 
     public static void odds(int rows){
         
