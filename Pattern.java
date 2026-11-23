@@ -19,8 +19,8 @@ public class Pattern{
        
 
     }
-    //precondition rows>=i    i=1
-    //postcondition prints triangle with i  j number of times
+    //precondition rows>=i   
+    //postcondition postcondition prints a triangle composed of ascending numbers with "rows" number of rows
      public static void triangle(int rows){
         
        for ( int i=1; i<=rows; i++){
